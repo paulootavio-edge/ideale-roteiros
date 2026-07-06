@@ -288,6 +288,12 @@ export default function Page() {
               <p className="mt-1.5 text-sm leading-relaxed text-[var(--muted)]">
                 São <strong className="text-[var(--ink)]">5 looks totais</strong> para a diária. Cada roteiro recebe <strong className="text-[var(--ink)]">2 opções de look</strong>. Escolha na hora a que conversa melhor com o ambiente. Os mesmos looks se repetem entre roteiros de forma estratégica, evitando levar roupa demais e mantendo variedade visual. Clique em qualquer <em>chip de look</em> para pular direto ao figurino.
               </p>
+              <div className="mt-4 flex items-start gap-2.5 rounded-lg border-l-2 bg-white p-3.5" style={{ borderColor: "var(--ink)" }}>
+                <Info size={16} className="mt-0.5 shrink-0 text-[var(--ink)]" />
+                <p className="text-sm leading-relaxed text-[var(--ink)]">
+                  <strong className="font-semibold">Observação.</strong> Os roteiros serão executados conforme a viabilidade no local. Ambientes, cenas e sequência podem ser adaptados no dia da gravação de acordo com as condições e a disponibilidade dos espaços.
+                </p>
+              </div>
             </div>
           </div>
         </section>
